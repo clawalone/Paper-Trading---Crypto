@@ -1,32 +1,88 @@
-# StockArena
+<div align="center">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Riverpod-000000?style=for-the-badge&logo=dart&logoColor=white" alt="Riverpod" />
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License" />
+</div>
 
-StockArena is a Flutter paper-trading app concept inspired by modern investing apps, with a gamified learning loop.
+<h1 align="center">AcadrioTrade (Stock Arena) 📈</h1>
 
-Users receive virtual cash, search stocks, inspect delayed-style charts, buy and sell with simulated money, track portfolio profit/loss, complete missions, earn badges and XP, build watchlists, and compete on a leaderboard.
+<p align="center">
+  <b>A highly gamified, real-time paper-trading crypto simulator built with Flutter and Firebase.</b><br>
+  Experience the thrill of trading cryptocurrencies in a risk-free environment. Compete on leaderboards, learn trading strategies through interactive quizzes, and build your virtual portfolio.
+</p>
 
-## Current MVP
+---
 
-- Onboarding with experience selection
-- Login/signup style entry
-- Home dashboard with virtual balance, portfolio value, profit/loss, gainers/losers, and missions
-- Market screen with search, filters, trending stocks, gainers, and losers
-- Stock detail page with line/candlestick chart toggle, 1D/1W/1M/1Y/5Y ranges, volume bars, indicators, and moving average display
-- Buy/sell flow with quantity, market price, estimated cost, and confirmation
-- Portfolio holdings and transaction history
-- Watchlist
-- Missions, rewards, badges, streaks, levels, learning quiz, and leaderboard
+## ✨ Features
 
-## Run
+- **Live Crypto Data**: Real-time ticker prices and candlestick charts via Binance WebSockets.
+- **Advanced Charting**: Fully interactive 1D/1W/1M/1Y/5Y candlestick and line charts with volume indicators.
+- **Futures & Margin Trading**: Practice advanced trading strategies with leverage, liquidation prices, and isolated/cross margins.
+- **Gamified Learning**: Earn XP, level up, complete daily missions, and unlock badges to become a pro trader.
+- **Global Leaderboard**: Compete against friends and traders worldwide for the top portfolio rank.
+- **Multi-Currency Support**: Dynamically switch your portfolio view between USD and INR base currencies.
+- **Cross-Platform**: A responsive web terminal and a polished native mobile experience.
 
-```powershell
-flutter pub get
-flutter run
-```
+---
 
-If this directory does not yet contain platform folders such as `android`, `ios`, or `web`, run:
+## 📱 Screenshots
 
-```powershell
-flutter create .
-```
+*Note: Replace the screenshot paths below with actual images in a `screenshots` folder.*
 
-Then keep the generated platform files and this `lib/main.dart`.
+| Dashboard & Home | Live Market & Charts | Futures Trading |
+| :---: | :---: | :---: |
+| <img src="screenshots/home.png" width="250" alt="Home Screen"/> | <img src="screenshots/market.png" width="250" alt="Market Screen"/> | <img src="screenshots/futures.png" width="250" alt="Futures Screen"/> |
+| **Portfolio & Holdings** | **Leaderboard & Ranks** | **Missions & Rewards** |
+| <img src="screenshots/portfolio.png" width="250" alt="Portfolio Screen"/> | <img src="screenshots/leaderboard.png" width="250" alt="Leaderboard Screen"/> | <img src="screenshots/rewards.png" width="250" alt="Rewards Screen"/> |
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework**: [Flutter](https://flutter.dev/) (Cross-platform Mobile & Web)
+- **State Management**: [Riverpod](https://riverpod.dev/)
+- **Backend**: [Firebase](https://firebase.google.com/) (Auth, Firestore, Hosting)
+- **Market Data**: Binance REST API & WebSocket Streams
+- **Charts**: Syncfusion Flutter Charts & FL Chart
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (`>=3.4.0`)
+- Firebase CLI (for backend setup)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/clawalone/Paper-Trading---Crypto.git
+   cd Paper-Trading---Crypto
+   ```
+
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Firebase Configuration**
+   Connect your own Firebase project by configuring `google-services.json` (Android), `GoogleService-Info.plist` (iOS), or `firebase_options.dart`.
+
+4. **Run the App**
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check out the [issues page](../../issues).
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<div align="center">
+  <i>Built with ❤️ using Flutter</i>
+</div>
