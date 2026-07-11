@@ -26,18 +26,6 @@
 
 ---
 
-## 📱 Screenshots
-
-*Note: Replace the screenshot paths below with actual images in a `screenshots` folder.*
-
-| Dashboard & Home | Live Market & Charts | Futures Trading |
-| :---: | :---: | :---: |
-| <img src="screenshots/home.png" width="250" alt="Home Screen"/> | <img src="screenshots/market.png" width="250" alt="Market Screen"/> | <img src="screenshots/futures.png" width="250" alt="Futures Screen"/> |
-| **Portfolio & Holdings** | **Leaderboard & Ranks** | **Missions & Rewards** |
-| <img src="screenshots/portfolio.png" width="250" alt="Portfolio Screen"/> | <img src="screenshots/leaderboard.png" width="250" alt="Leaderboard Screen"/> | <img src="screenshots/rewards.png" width="250" alt="Rewards Screen"/> |
-
----
-
 ## 🛠 Tech Stack
 
 - **Framework**: [Flutter](https://flutter.dev/) (Cross-platform Mobile & Web)
